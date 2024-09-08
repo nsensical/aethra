@@ -25,15 +25,21 @@
         </div>
       </header>
       <main>
-        <h1>Caracas</h1>
-        <form>
+        <h1 id="city">Caracas</h1>
+        <form class="search-form" id="search-form">
           <input
             type="text"
             placeholder="Enter a city"
             required
             class="search-form-input"
+            id="search-form-input"
           />
-          <input type="submit" value="Search" class="search-form-button" />
+          <input
+            type="submit"
+            value="Search"
+            class="search-form-button"
+            id="search-form-button"
+          />
         </form>
       </main>
 
@@ -44,5 +50,7 @@
         deployed at <a href="https://aethra.netlify.app/">netlify</a>
       </footer>
     </div>
+
+    <script src="src/index.js"></script>
   </body>
 </html>
