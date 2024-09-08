@@ -1,0 +1,98 @@
+/** @format */
+
+body {
+  background-color: #e3cdda;
+}
+
+a {
+  color: purple;
+}
+
+.container {
+  margin: 80px auto;
+  max-width: 40%;
+  padding: 35px;
+  background-color: white;
+  border-radius: 10px;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/574/original/eberhard-grossgasteiger-NvesrDbsrL4-unsplash.jpg?1725815502");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.weather-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  display: flex;
+}
+
+.weather-info-temp-icon {
+  font-size: 25px;
+  margin-left: 10px;
+}
+.weather-info-temp-value {
+  font-size: 50px;
+}
+
+.weather-info-temp-unit {
+  font-size: 30px;
+}
+
+header {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 30px;
+}
+
+p strong {
+  color: purple;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+form {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.search-form-input {
+  background-color: #e3cdda;
+  opacity: 0.8;
+  border: none;
+  border-radius: 6px;
+  width: 40%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-form-button {
+  background-color: purple;
+  opacity: 0.9;
+  border: none;
+  border-radius: 6px;
+  width: 15%;
+  padding: 5px;
+  font-size: 16px;
+  color: white;
+  margin-left: 8px;
+}
+
+footer {
+  margin: 30px auto;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  font-family: monospace;
+  font-size: 12px;
+  text-align: center;
+}

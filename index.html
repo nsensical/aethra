@@ -5,37 +5,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>AETHRA - weather app</title>
   </head>
   <body>
-    <header>
-      <p>cloudy</p>
-      <h2>🌥️24°C</h2>
-    </header>
-    <main>
-      <h1>CITY</h1>
-      <form>
-        <input type="text" placeholder="Enter a city" required />
-        <input type="submit" value="Search" />
-      </form>
+    <div class="container">
+      <header>
+        <div class="weather-info">
+          <p>
+            Sunday 13:08 , moderate rain <br />
+            Humidity: <strong>87%</strong> - Wind:
+            <strong>7.2 km/h</strong>
+          </p>
+          <h2 class="weather-info-temp">
+            <div class="weather-info-temp-icon">🌥️</div>
+            <div class="weather-info-temp-value">24</div>
+            <div class="weather-info-temp-unit">°C</div>
+          </h2>
+        </div>
+      </header>
+      <main>
+        <h1>Caracas</h1>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a city"
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
+        </form>
+      </main>
 
-      <ul>
-        <small
-          ><li>MONDAY</li>
-          <li>TUESDAY</li>
-          <li>WEDNESDAY</li>
-          <li>THURSDAY</li>
-          <li>FRIDAY</li>
-          <li>SATURDAY</li>
-          <li>SUNDAY</li></small
-        >
-      </ul>
-    </main>
-    <footer>
-      coded by
-      <a href="https://github.com/nsensical" target="_blank">Isaura Manzano</a>,
-      hosted on <a href="https://github.com/nsensical/aethra">github</a> &
-      deployed at <a href="https://aethra.netlify.app/">netlify</a>
-    </footer>
+      <footer>
+        coded by
+        <a href="https://github.com/nsensical" target="_blank">Isaura Manzano</a
+        >, hosted on <a href="https://github.com/nsensical/aethra">github</a> &
+        deployed at <a href="https://aethra.netlify.app/">netlify</a>
+      </footer>
+    </div>
   </body>
 </html>
