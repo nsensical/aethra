@@ -35,7 +35,7 @@ h2 {
 }
 .weather-info-temp-value {
   font-size: 50px;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
 .weather-info-temp-unit {
