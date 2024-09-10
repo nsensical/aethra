@@ -29,11 +29,13 @@ h2 {
 }
 
 .weather-info-temp-icon {
-  font-size: 25px;
-  margin-left: 10px;
+  width: 65px;
+  height: 65px;
+  margin-top: -26px;
 }
 .weather-info-temp-value {
   font-size: 50px;
+  margin-left: -5px;
 }
 
 .weather-info-temp-unit {
